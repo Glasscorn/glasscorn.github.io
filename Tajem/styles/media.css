@@ -75,14 +75,19 @@
   .adaptive-menu-button {
     display: block;
   }
+  .parthners {
+    flex-wrap: wrap;
+  }
+  .info-container {
+    flex-wrap: wrap;
+  }
 }
 
 @media screen and (max-width: 480px) {
   .video-section {
     display: none;
   }
-  /*Адаптивное меню*/
-  .adaptive-menu-button {
-    display: block;
+  .person-card {
+    margin-top: 20px;
   }
 }

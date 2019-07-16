@@ -286,6 +286,7 @@ video[poster] {
 
 .team {
   padding: 70px 0;
+  min-width: auto;
 }
 .team, .teachers h2 {
   margin-bottom: 10px;
