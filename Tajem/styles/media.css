@@ -79,8 +79,14 @@
   .parthners {
     flex-wrap: wrap;
   }
+  .parthners .brands-wrap {
+    margin-top: 35px;
+  }
   .info-container {
     flex-wrap: wrap;
+  }
+  form input, textarea {
+    width: 200px;
   }
 }
 
