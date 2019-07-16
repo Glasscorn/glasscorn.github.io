@@ -1,0 +1,42 @@
+.adaptive-menu-button {
+  display: none;
+  cursor: pointer;
+  position: relative;
+  width: 30px;
+  height: 22px;
+}
+
+.top-stick {
+  top: 0;
+}
+.middle-stick {
+  top: 50%;
+}
+.bottom-stick {
+  top: 100%;
+}
+.stick {
+  width: 30px;
+  background-color: #fff;
+  padding: 2px 0;
+  box-sizing: border-box;
+  border-radius: 1px;
+  transition: 400ms ease;
+  position: absolute;
+  left: 0;
+}
+
+#check-menu:checked ~ .adaptive-menu-button  {
+  display: block;
+}
+#check-menu:checked ~ .adaptive-menu-button .top-stick {
+  transform: rotate(135deg);
+  top: 50%;
+}
+#check-menu:checked ~ .adaptive-menu-button .bottom-stick {
+  transform: rotate(-135deg);
+  top: 50%;
+}
+#check-menu:checked ~ .adaptive-menu-button .middle-stick {
+  opacity: 0;
+}

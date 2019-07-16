@@ -1,0 +1,88 @@
+  @media screen and (max-width: 1024px) {
+  .wrapper {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .story-image {
+    display: none;
+  }
+  .wrapper {
+    width: 80%;
+  }
+  .story-desc {
+    width: 90%;
+  }
+  .work {
+    max-width: 50%;
+    min-width: 33%;
+    max-height: auto;
+  }
+  .teachers-text {
+    width: 90%;
+  }
+  .slider-wrapper {
+    width: 300px;
+  }
+  #control-left {
+    left: 10%;
+  }
+  #control-right {
+    right: 10%;
+  }
+  .info {
+    margin: 0 auto;
+  }
+  header {
+    width: 90%;
+    margin: 0 auto;
+  }
+  #check-menu:checked + nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  nav {
+    display: none;
+    position: absolute;
+    margin: 0 auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    }
+  nav ul {
+      padding: 0;
+    }
+  nav ul li {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    float: none;
+    padding: 10px 0;
+    font-size: calc(4vw + 5px);
+    background-color: rgba(51,0,219,0.75);
+    z-index: 3;
+    position: relative;
+  }
+  nav ul li:first-child {
+    padding-top: 30px;
+  }
+  nav ul li:last-child {
+    padding-bottom: 15px;
+  }
+  .adaptive-menu-button {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .video-section {
+    display: none;
+  }
+  /*Адаптивное меню*/
+  .adaptive-menu-button {
+    display: block;
+  }
+}

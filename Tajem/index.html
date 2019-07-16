@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="Glasscorn portfolio site">
+    <link rel="stylesheet" type="text/css" href="styles/flexbox-classes.css">
+    <link rel="stylesheet" type="text/css" href="styles/master.css">
+    <link rel="stylesheet" type="text/css" href="styles/adaptive-menu.css">
+    <link rel="stylesheet" type="text/css" href="styles/media.css">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900|
+    Roboto:100,300,400,500,700,900&display=swap" rel="stylesheet">
+    <title>Tajem Master</title>
+    <script src="https://kit.fontawesome.com/7d2cee391a.js"></script>
+  </head>
+  <body>
+    <script type="text/javascript">
+      window.onload = function(){
+        document.body.classList.remove('preload');
+      }
+    </script>
+
+    <section class="first-screen-section full-height full-bg">
+      <div class="bg-overlay"></div>
+      <div class="wrapper full-height vertical-flex space-between center-block">
+        <header class="flex vertical-center space-between upper-overlay">
+          <div class="logo-box flex vertical-center area-left roboto-font">
+            <img class="logo" src="Images/tajam-logo.png" alt="">
+            <h1>tajam</h1>
+          </div>
+          <input type="checkbox" id="check-menu" class="disabled">
+          <nav class="area-right">
+            <ul class="uppercase roboto-font">
+              <li><a class="white-text" href="#">Home</a></li>
+              <li><a class="white-text" href="#">About</a></li>
+              <li><a class="white-text" href="#">Expertise</a></li>
+              <li><a class="white-text" href="#">Teams</a></li>
+              <li><a class="white-text" href="#">Works</a></li>
+              <li><a class="white-text" href="#">People say</a></li>
+              <li><a class="white-text" href="#">Contact</a></li>
+            </ul>
+          </nav>
+          <label class="adaptive-menu-button" for="check-menu">
+            <span class="stick top-stick"></span>
+            <span class="stick middle-stick"></span>
+            <span class="stick bottom-stick"></span>
+          </label>
+        </header>
+        <div class="title vertical-flex vertical-center upper-overlay center-text white-text">
+          <h1>We Are Awesome Creative Agency</h1>
+          <span class="separator"></span>
+          <p class="title-desc">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem
+             quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh
+             vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.</p>
+          <input class="button" type="button" value="Learn more">
+        </div>
+        <div class="circle-box flex center-block upper-overlay">
+          <span class="circle curry"></span>
+          <span class="circle"></span>
+          <span class="circle"></span>
+          <span class="circle"></span>
+        </div>
+     </div>
+    </section>
+
+    <section class="story-section">
+      <div class="story-wrapper wrapper flex space-around center-block">
+        <div class="story-container story-image area-left">
+          <img class="logo-big" src="Images/logo-big.png" title="Tajem" alt="">
+        </div>
+        <div class="story-container story-text area-right">
+          <h2>OUR STORY</h2>
+          <p class="story-desc">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor
+            aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum,
+            nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus</p>
+          <p class="story-desc">Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio.
+            Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu
+            ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+          <input class="button white-bg-button" type="button" value="Learn more">
+        </div>
+      </div>
+    </section>
+
+    <section class="video-section">
+      <div class="video-wrapper">
+        <div id="video-overlay" class="bg-overlay"></div>
+        <video id="video" src="Video/video.mp4" loop poster="Images/poster-image.jpg"></video>
+        <span id="video-controls" class="upper-overlay">
+          <img id="play" src="Images/play.png" alt="">
+          <img id="pause" class="disabled" src="Images/pause.png." alt="">
+        </span>
+        <span id="video-text" class="upper-overlay uppercase center-text roboto-font white-text">Watch our story</span>
+      </div>
+    </section>
+
+    <section class="trigger-section">
+      <div class="wrapper benefits vertical-flex vertical-center horizontal-center wrap center-block center-text">
+        <h2>EXPERTISE</h2>
+        <p class="playfair-font">Lorem ipsum dolor sit amet proin gravida nibh vel velit</p>
+        <span class="separator gray"></span>
+        <div class="triggers-box flex space-around wrap roboto-font">
+          <div class="trigger">
+            <img src="Images/webDev.png" alt="">
+            <h3 class="uppercase">Web design & development</h3>
+            <p>This is Photoshop's version  of Lorem<br>
+               Ipsum. Proin gravida nibh vel velit<br>
+               auctor aliquet Aenean.</p>
+          </div>
+          <div class="trigger">
+            <img src="Images/branding.png" alt="">
+            <h3 class="uppercase">Branding identity</h3>
+            <p>This is Photoshop's version  of Lorem<br>
+               Ipsum. Proin gravida nibh vel velit<br>
+               auctor aliquet Aenean.</p>
+          </div>
+          <div class="trigger">
+            <img src="Images/mobile.png" alt="">
+            <h3 class="uppercase">Mobile app</h3>
+            <p>This is Photoshop's version  of Lorem<br>
+               Ipsum. Proin gravida nibh vel velit<br>
+               auctor aliquet Aenean.</p>
+          </div>
+          <div class="trigger">
+            <img src="Images/seo.png" alt="">
+            <h3 class="uppercase">Search endgine optimization</h3>
+            <p>This is Photoshop's version  of Lorem<br>
+               Ipsum. Proin gravida nibh vel velit<br>
+               auctor aliquet Aenean.</p>
+          </div>
+          <div class="trigger">
+            <img src="Images/game.png" alt="">
+            <h3 class="uppercase">Game development</h3>
+            <p>This is Photoshop's version  of Lorem<br>
+               Ipsum. Proin gravida nibh vel velit<br>
+               auctor aliquet Aenean.</p>
+          </div>
+          <div class="trigger">
+            <img src="Images/love.png" alt="">
+            <h3 class="uppercase">Made with love</h3>
+            <p>This is Photoshop's version  of Lorem<br>
+               Ipsum. Proin gravida nibh vel velit<br>
+               auctor aliquet Aenean.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="team-section full-bg">
+      <div class="bg-overlay"></div>
+      <div class="wrapper team vertical-flex vertical-center upper-overlay center-block white-text">
+        <h2 class="playfair-font white-text">MEET OUR AMAZING TEAM</h2>
+        <p>Lorem ipsum dolor sit amet proin gravida nibh vel velit</p>
+        <span class="separator gray"></span>
+        <div class="flex vertical-center horizontal-center wrap center-text">
+          <div class="person-card roboto-font">
+            <img class="person-face" src="Images/seo-person.jpg" alt="">
+            <h3 class="roboto-font">Semf Ucuk</h3>
+            <p>Ceo & founder</p>
+          </div>
+          <div class="person-card">
+            <img class="person-face" src="Images/engineering-person.jpg" alt="">
+            <h3 class="roboto-font">Dik Adalin</h3>
+            <p>Engineering</p>
+          </div>
+          <div class="person-card">
+            <img class="person-face" src="Images/designer-person.jpg" alt="">
+            <h3 class="roboto-font">Mable Shout</h3>
+            <p>Designer</p>
+          </div>
+          <div class="person-card">
+            <img class="person-face" src="Images/marketing-person.jpg" alt="">
+            <span class="person-text">
+              <h3 class="roboto-font">Pet Romak</h3>
+              <p>Marketing</p>
+            </span>
+          </div>
+        </div>
+        <div class="under-text vertical-flex">
+          <p>Become part of our dream team, let’s join us !</p>
+          <input class="button white-button" type="button" value="We are hiring">
+        </div>
+      </div>
+    </section>
+
+    <section class="works-section">
+      <div class="wrapper-full works vertical-flex vertical-center">
+        <span class="wrapper works-header flex vertical-center   space-around">
+          <h2 class="uppercase">Our works</h2>
+          <p class="see_all roboto-font">See All Project in dribbble <b>></b></p>
+        </span>
+        <div class="works-box flex space-around wrap">
+          <img class="work" src="Images/Works/work1.png" alt="">
+          <img class="work" src="Images/Works/work2.png" alt="">
+          <img class="work" src="Images/Works/work3.png" alt="">
+          <img class="work" src="Images/Works/work4.png" alt="">
+          <img class="work" src="Images/Works/work5.png" alt="">
+          <img class="work" src="Images/Works/work6.png" alt="">
+          <img class="work" src="Images/Works/work5.png" alt="">
+          <img class="work" src="Images/Works/work1.png" alt="">
+          <img class="work" src="Images/Works/work6.png" alt="">
+          <img class="work" src="Images/Works/work2.png" alt="">
+          <img class="work" src="Images/Works/work4.png" alt="">
+          <img class="work" src="Images/Works/work3.png" alt="">
+          <img class="work hidden-work" src="Images/Works/work1.png" alt="">
+          <img class="work hidden-work" src="Images/Works/work2.png" alt="">
+          <img class="work hidden-work" src="Images/Works/work3.png" alt="">
+          <img class="work hidden-work" src="Images/Works/work4.png" alt="">
+          <img class="work hidden-work" src="Images/Works/work5.png" alt="">
+          <img class="work hidden-work" src="Images/Works/work6.png" alt="">
+        </div>
+        <input id="more-button" class="button white-bg-button" type="button" value="Load more">
+      </div>
+    </section>
+
+    <section class="teachers-section ful-bg">
+      <div class="bg-overlay"></div>
+      <div class="wrapper teachers vertical-flex upper-overlay center-block white-text">
+        <h2 class="quotes center-text white-text">“</h2>
+        <p class="teachers-text playfair-font center-text">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean
+          sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis
+          sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus
+          a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit.</p>
+        <div class="under-text vertical-flex">
+          <div id="profession-slider">
+            <div class="slider-wrapper flex horizontal-center center-block">
+              <ul class="slider-list flex space-between vertical-center uppercase center-text" id="slider-profession-list">
+                <li class="slide profession-slide">
+                  <h2>David Sakhim</h2>
+                  <h3>Analytics Manager</h3>
+                </li>
+                <li class="slide profession-slide">
+                  <h2>Steve Light</h2>
+                  <h3>Marketing Specialist</h3>
+                </li>
+                <li class="slide profession-slide">
+                  <h2>Alan Gandhi</h2>
+                  <h3>Cyber Security</h3>
+                </li>
+                <li class="slide profession-slide">
+                  <h2>Emmie Edwards</h2>
+                  <h3>Manager</h3>
+                </li>
+                <li class="slide profession-slide">
+                  <h2>Jane Galadriel</h2>
+                  <h3>Ceo Tengkurep</h3>
+                </li>
+                <li class="slide profession-slide">
+                  <h2>Laury Brown</h2>
+                  <h3>Software Engineer</h3>
+                </li>
+                <li class="slide profession-slide">
+                  <h2>Lize Rose</h2>
+                  <h3>Neuronetwork developer</h3>
+                </li>
+                <li class="slide profession-slide">
+                  <h2>Alice Smith</h2>
+                  <h3>Game Developer</h3>
+                </li>
+                <li class="slide profession-slide">
+                  <h2>Tim Clark</h2>
+                  <h3>Database Administrator</h3>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div id="slider" class="flex">
+            <span class="slider-control white-text" id="control-left"><i class="fas fa-chevron-left"></i></span>
+            <div class="slider-wrapper flex horizontal-center center-block">
+              <ul class="slider-list flex vertical-center" id="slider-list">
+                <li class="slide">
+                  <img class="slider-image" src="Images/slide-1.jpg" alt="">
+                </li>
+                <li class="slide">
+                  <img class="slider-image" src="Images/slide-2.jpg" alt="">
+                </li>
+                <li class="slide">
+                  <img class="slider-image" src="Images/slide-3.jpg" alt="">
+                </li>
+                <li class="slide">
+                  <img class="slider-image" src="Images/slide-4.jpg" alt="">
+                </li>
+                <li class="slide">
+                  <img class="slider-image" src="Images/slide-5.jpg" alt="">
+                </li>
+                <li class="slide">
+                  <img class="slider-image" src="Images/slide-6.jpg" alt="">
+                </li>
+                <li class="slide">
+                  <img class="slider-image" src="Images/slide-7.jpg" alt="">
+                </li>
+                <li class="slide">
+                  <img class="slider-image" src="Images/slide-8.jpg" alt="">
+                </li>
+                <li class="slide">
+                  <img class="slider-image" src="Images/slide-9.jpg" alt="">
+                </li>
+              </ul>
+            </div>
+            <span class="slider-control" id="control-right"><i class="fas fa-chevron-right"></i></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="parthners-section">
+      <div class="wrapper parthners flex wrap center-block">
+        <div class="feedback-form-wrap area-left">
+          <h2 class="uppercase">Give us a good news</h2>
+            <form class="feedback vertical-flex roboto-font">
+              <input type="text" placeholder="Name">
+              <input type="text" placeholder="Email">
+              <input type="text" placeholder="Subject">
+              <textarea name="name" rows="8" cols="80" placeholder="Your Message"></textarea>
+              <input style="width: 130px;" type="button" class="button white-bg-button" value="Submit">
+            </form>
+          </div>
+          <div class="brands-wrap area-right">
+            <h2>Our happy clients</h2>
+            <img class="brand" src="Images/brands/Zara_Logo.png" alt="">
+            <img class="brand" src="Images/brands/Logo_Mango.png" alt="">
+            <img class="brand" src="Images/brands/Barneys_New_York_Logo.png" alt="">
+            <img class="brand" src="Images/brands/Gucci_Logo.png" alt="">
+            <img class="brand" src="Images/brands/Calvin_klein_logo.png" alt="">
+            <img class="brand" src="Images/brands/Logo_NIKE.png" alt="">
+            <img class="brand" src="Images/brands/Converse_logo.png" alt="">
+            <img class="brand" src="Images/brands/Puma_Logo.png" alt="">
+            <img class="brand" src="Images/brands/Levi's_logo..png" alt="">
+            <img class="brand" src="Images/brands/Billabong_Logo.png" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="footer-section full-bg">
+      <div class="bg-overlay"></div>
+      <div class="wrapper footer vertical-flex upper-overlay center-block">
+        <div class="info-container flex wrap">
+          <div class="logo-box info vertical-flex white-text">
+            <span style="margin-bottom: 20px;" class="horizontal-flex">
+              <img class="logo" src="Images/tajam-logo.png" alt="">
+              <h1>tajam</h1>
+            </span>
+            <p>Lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh elit. Duis sed odio sit amet auctror a ornare odio non mauris vitae erat in elit</p>
+          </div>
+          <div class="contacts info vertical-flex vertical-start white-text">
+            <h3 class="uppercase roboto-font">Our studio</h3>
+            <span class="contact-text adress flex vertical-start">
+              <p>Ruko cucruk, Jl. Radio luar dalem jos No.12 - 13, Kalideres - Jakarta Barat
+                11480 - Indonesia</p>
+            </span>
+            <span class="contact-text number flex vertical-start">
+              <p>(+62) 21-2224 3333</p>
+            </span>
+          </div>
+          <div class="subscribe info vertical-flex">
+            <h3 class="roboto-font white-text">Stay in touch</h3>
+            <span class="submit flex vertical-center">
+              <input class="messge-send roboto-font white-text" type="text" placeholder="Subscribe our newsletter">
+              <button class="send-button white-text" type="button"><i class="far fa-paper-plane"></i></button>
+            </span>
+            <span class="socials">
+              <ul class="social-list">
+                <li>
+                  <a class="flex vertical-center horizontal-center white-text" href="#"><i class="fab fa-facebook-f"></i></a>
+                </li>
+                <li>
+                  <a class="flex vertical-center horizontal-center white-text" href="#"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a class="flex vertical-center horizontal-center white-text" href="#"><i class="fab fa-instagram"></i></a>
+                </li>
+                <li>
+                  <a class="flex vertical-center horizontal-center white-text" href="#"><i class="fab fa-google-plus-g"></i></a>
+                </li>
+                <li>
+                  <a class="flex vertical-center horizontal-center white-text" href="#"><i class="fab fa-youtube"></i></a>
+                </li>
+                <li>
+                  <a class="flex vertical-center horizontal-center white-text" href="#"><i class="fab fa-reddit-alien"></i></a>
+                </li>
+              </ul>
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script type="text/javascript" defer src="Assets/video.js"></script>
+    <script type="text/javascript" defer src="Assets/slider.js"></script>
+    <script type="text/javascript" defer src="Assets/buttons.js"></script>
+  </body>
+</html>
