@@ -519,7 +519,7 @@ form input, textarea, .messge-send {
 }
 .send-button:hover {
   background-color: #fff;
-  color: rgba(0, 16, 97, 1);
+  color: rgba(0, 16, 97, 1)  !important;
 }
 
 .social-list li {
@@ -542,5 +542,5 @@ form input, textarea, .messge-send {
   background: #fff;
 }
 .social-list li:hover a {
-  color: rgba(0, 16, 97, 1);
+  color: rgba(0, 16, 97, 1) !important;
 }
