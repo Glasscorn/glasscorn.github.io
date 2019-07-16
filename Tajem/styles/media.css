@@ -32,11 +32,8 @@
   #control-right {
     right: 10%;
   }
-  .info {
-    margin: 0 auto;
-  }
   header {
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
   }
   #check-menu:checked + nav {
@@ -80,13 +77,22 @@
     flex-wrap: wrap;
   }
   .parthners .brands-wrap {
-    margin-top: 35px;
+    margin-top: 40px;
+  }
+  .brands-wrap h2 {
+    margin-bottom: 5px;
   }
   .info-container {
     flex-wrap: wrap;
   }
   form input, textarea {
     width: 200px;
+  }
+  .logo-box {
+    padding: 0;
+  }
+  .info {
+    margin: 1px 0;
   }
 }
 
