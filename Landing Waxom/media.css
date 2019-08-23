@@ -1,0 +1,266 @@
+@media screen and (max-width: 1740px) {
+  header {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 1490px) {
+  header {
+    width: 80%;
+  }
+  .mobile {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 1300px) {
+  header {
+    width: 90%;
+  }
+  .mobile {
+    width: 80%;
+  }
+  .mobile-section  p {
+    line-height: 25px;
+  }
+  .post {
+    width: 47%;
+  }
+  .post:last-child {
+    display: none;
+  }
+  .footer-wrapper {
+    width: 70%;
+    padding: 50px 0 40px 0;
+  }
+}
+@media screen and (max-width: 1155px) {
+  .logo-box h1 {
+    display: none;
+  }
+  .trigger-container {
+    width: 70%;
+  }
+  .footer {
+    width: 800px;
+  }
+  .footer-container {
+    width: 45%;
+    margin: 5px 15px;
+  }
+  .footer-wrapper {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  body {
+    font-size: 0.9em;
+  }
+  .trigger-box {
+    width: 48%;
+    height: 180px;
+  }
+  .offer h1 {
+    font-size: 1.5em;
+  }
+  .button-purchase {
+    width: 160px;
+  }
+  .sort-list-wrapper {
+    width: 70%;
+  }
+  .projects > p {
+    width: 60%;
+  }
+  .projects-container {
+    max-width: 800px;
+  }
+  .project {
+    width: 45%;
+  }
+  .video-section {
+    display: none;
+  }
+  /*Адаптивное меню*/
+
+  nav {
+    display: none;
+    position: relative;
+  }
+  nav ul {
+    background-color: rgba(0, 0, 0, 0.85);
+    flex-wrap: wrap;
+    font-size: 1.4em;
+    width: 300px;
+    height: 260px;
+    padding: 0 5px;
+    position: absolute;
+    top: 20px;
+    right: -50px;
+  }
+  nav ul li {
+    margin-left: 0;
+    padding: 5px 10px;
+  }
+  .icon:last-child {
+    padding-left: 190px;
+  }
+  .toggle-button {
+    display: block;
+    padding-left: 20px;
+  }
+  .toggle-button:after {
+    content: attr(data-open);
+    display: block;
+    font-family: 'Open-sans Condensed', sans-serif;
+  }
+  #menu-checkbox:checked + nav {
+    width: 100%;
+    display: block !important;
+  }
+  #menu-checkbox:checked ~ .toggle-button:after {
+    content: attr(data-close);
+  }
+  .mobile {
+    margin-bottom: 20px;
+  }
+  .mobile-section  p {
+    width: 100%;
+  }
+  .mobile-section ul {
+    padding: 0;
+  }
+  .mobile-image {
+    display: none;
+  }
+  .counters {
+    width: 80%;
+    padding: 30px 25px 20px 25px;
+    font-size: 0.6em;
+  }
+  .count img {
+    width: 40px;
+    height: 40px;
+  }
+  .count h1 {
+    margin: 10px 0;
+  }
+  .count h4 {
+    margin: 0;
+    font-size: 1.6em;
+    color: #c7b299;
+  }
+  .line {
+    height: 2px;
+    width: 25px;
+    margin: 15px;
+  }
+  .footer-wrapper {
+    width: 85%;
+    font-size: 0.9em;
+  }
+}
+@media screen and (max-width: 800px) {
+  .projects-container {
+    max-width: 600px;
+  }
+  .project {
+    width: 400px;
+  }
+  .post {
+    margin: 0 auto;
+    width: 90%;
+  }
+  .post:first-child {
+    display: none;
+  }
+  .footer {
+    max-width: 700px;
+    min-width: 500px;
+  }
+  .footer-container {
+    width: 40%;
+    margin: 5px 15px;
+  }
+  .right-bar {
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 670px) {
+  .trigger-container {
+    width: 70%;
+    margin: 30px auto;
+  }
+  .trigger-box {
+    width: 100%;
+    height: 180px;
+    margin-bottom: 20px;
+  }
+  p {
+    font-size: 17px;
+  }
+  .browser:first-child {
+    display: none;
+  }
+  .browser:nth-child(2){
+    min-width: auto;
+    width: 100%;
+    margin: 0 auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+  }
+  .browser:last-child {
+    display: none;
+  }
+  .offer-container {
+    flex-direction: column;
+    padding-bottom: 25px;
+  }
+  .projects > p {
+    width: 70%;
+  }
+  .count {
+    margin: 10px 0;
+    padding: 0 20px;
+  }
+  .footer {
+    width: 80%;
+  }
+  .footer-container {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 400px) {
+  nav ul {
+    height: 220px;
+    top: 40px;
+    right: -85px;
+  }
+  nav ul li {
+    padding: 0 5px;
+  }
+  .project {
+    width: 300px;
+  }
+  .partner-image {
+    width: 200px;
+    padding: 25px;
+  }
+  .footer-container {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 320px) {
+  nav ul {
+    width: 310px;
+    height: 220px;
+    right: -95px;
+  }
+  .trigger-box {
+    width: 120%;
+    height: 180px;
+    margin-bottom: 55px;
+  }
+}
