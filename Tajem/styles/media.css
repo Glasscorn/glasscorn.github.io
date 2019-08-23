@@ -51,7 +51,7 @@
     left: 0;
     }
   nav ul {
-      padding: 0;
+    padding: 0;
     }
   nav ul li {
     width: 100vw;
@@ -60,9 +60,9 @@
     float: none;
     padding: 10px 0;
     font-size: calc(4vw + 5px);
-    background-color: rgba(51,0,219,0.75);
-    z-index: 3;
+    background-color: rgba(51,0,219,0.95);
     position: relative;
+    z-index: 4;
   }
   nav ul li:first-child {
     padding-top: 30px;
