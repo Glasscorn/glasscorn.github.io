@@ -25,6 +25,10 @@ body {
 	grid-template-rows: repeat(auto-fill, 25px);
 }
 
+#next {
+	margin-top: 30px;
+}
+
 .cell {
 	display: block;
 }

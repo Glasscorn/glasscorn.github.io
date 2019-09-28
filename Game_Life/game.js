@@ -25,7 +25,7 @@ function arrFromCells(array){
 nextGeneration.addEventListener('click', gameStep(cellArr))
 
 function gameStep(array){
-	array.forEach(function (item, index, array){
+	setInterval(function(){array.forEach(function (item, index, array){
 		let siblingCount = 0;
 		//Проверка слева и справа
 		if (item.previousSibling.className === 'cell alive'){
@@ -77,7 +77,7 @@ function gameStep(array){
 	 	} else {
 	 		item.className = 'cell alive'
 	 	}
-	})
+	})}, 500)
 }
 
 
