@@ -8,7 +8,7 @@ function sum(start,end){
 }
 
 function range(a,b,step){
-	var stepParsed, 
+	var stepParsed,
 		array = [];
 	if (step !== undefined){stepParsed = parseInt(step)} else if (step === undefined) {stepParsed = 1};
 	if (a < b){var max = parseInt(a), min = parseInt(b)} else {var max = parseInt(b), min = parseInt(a)}
@@ -16,4 +16,32 @@ function range(a,b,step){
 		array.push(c)
 	}
 	return array;
+}
+
+function reverseArray(array){
+  let arrCopy = [];
+  for (let i = array.length-1; i >= 0; i--){
+    arrCopy.push(array[i])
+  }
+  return arrCopy
+}
+
+console.log(reverseArray([1,2,3,4,5]));
+
+
+function arrFromList(array){
+  let list = {value: undefined, rest: null},
+  	  _rest = {value: undefined, rest: null};
+  	  listStep();
+  function listStep() {
+    for (var i = 0; i < array.length; i++) {
+    	if (!list.rest){
+	    	list.value = array[i];
+	    	list.rest = _rest
+ 		} else {
+ 			_rest.value = array[i]
+ 		}
+ 	}
+  }
+	return list;
 }
